@@ -39,13 +39,61 @@ nav a{
 }
 
 .header{
-    background-color: lightgrey;
+    background-color: lightcyan;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .banner .profile-pic{
     width: 500px;
+}
+
+/* about section */
+main{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    margin: 130px 0;
+}
+.section-title{
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+}
+.about-info{
+    text-align: center;
+}
+
+.skill-container{
+    display: flex;
+    justify-content: space-between;
+}
+.skill{
+    background-color: #FFF8F3;
+    margin: 10px 20px;
+    padding: 15px;
+}
+.skill .skill-description{
+    text-align: justify;
+    color: #757575;
 }
