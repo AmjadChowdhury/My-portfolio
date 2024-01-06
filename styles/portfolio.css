@@ -62,7 +62,7 @@ main{
 .about{
     padding: 130px;
     border-radius: 10px;
-    background-color: #FFF8F3;
+    background-color: lemonchiffon;
     margin: 130px 0;
 }
 .section-title{
@@ -89,11 +89,47 @@ main{
     justify-content: space-between;
 }
 .skill{
-    background-color: #FFF8F3;
+    background-color: white;
     margin: 10px 20px;
     padding: 15px;
+    border: 0;
+    box-shadow: 5px 5px 10px lightsalmon;
 }
 .skill .skill-description{
     text-align: justify;
     color: #757575;
+}
+
+
+/* footer-section */
+
+.footer-section{
+    display: flex;
+    background-color: lightyellow;
+    margin-top: 130px;
+    padding: 30px 130px;
+    gap: 50px;
+}
+.footer-col{
+    width: 50%;
+}
+.footer-headline{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700px;
+}
+.footer-msg{
+    color: #757575;
+}
+.footer-social a{
+     margin-right: 30px;
+}
+.contact input,textarea{
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px 10px;
+    background-color: white;
+    border: 0;
+    box-shadow: 5px 5px 10px lightsalmon;
 }
